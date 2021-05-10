@@ -1,1 +1,0 @@
-# ST258-Algoritmo
