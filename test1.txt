@@ -1,0 +1,92 @@
+// R^2 de la red neuronal de prediccion del clima
+train set R^2 0.3019099271828991
+test set R^2 0.29023427583127304
+
+
+
+// Iteraciones del algoritmo genetico (Abreviadas)
+999 max_score: 17.132384511735562
+998 max_score: 25.67188306384775
+997 max_score: 25.67188306384775
+996 max_score: 25.67188306384775
+995 max_score: 25.67188306384775
+994 max_score: 24.90244044963949
+993 max_score: 25.504949383892875
+992 max_score: 28.745934814505553
+991 max_score: 28.745934814505553
+990 max_score: 28.745934814505553
+989 max_score: 28.745934814505553
+988 max_score: 29.147468447731384
+987 max_score: 29.234218924363244
+986 max_score: 29.46174829258149
+...
+119 max_score: 23.353757374954924
+118 max_score: 20.478440998988688
+117 max_score: 21.033032746120846
+116 max_score: 20.49685545500772
+115 max_score: 20.287000382234254
+114 max_score: 23.73426925652022
+113 max_score: 24.055909691048118
+112 max_score: 25.572214596679647
+111 max_score: 23.33921133027945
+110 max_score: 20.733198976242182
+109 max_score: 21.140486901265117
+108 max_score: 23.322031277572727
+107 max_score: 22.889418389659912
+106 max_score: 23.338853221481187
+105 max_score: 21.565060302139067
+104 max_score: 20.49685545500772
+103 max_score: 20.532551131478222
+102 max_score: 20.532551131478222
+101 max_score: 21.03247019671937
+...
+20 max_score: 26.175611681538342
+19 max_score: 25.98093482697055
+18 max_score: 26.55478615182388
+17 max_score: 24.006860432432568
+16 max_score: 23.5642125644146
+15 max_score: 25.103727428571343
+14 max_score: 25.98093482697055
+13 max_score: 25.98093482697055
+12 max_score: 28.391046576026422
+11 max_score: 25.869893486132852
+10 max_score: 25.346077669136157
+9 max_score: 25.346077669136157
+8 max_score: 25.359123286092828
+7 max_score: 24.152780512577294
+6 max_score: 24.370941753643205
+5 max_score: 21.657610265204248
+4 max_score: 26.175611681538342
+3 max_score: 24.005769137646894
+2 max_score: 23.764041963530687
+1 max_score: 24.005769137646894
+0 max_score: 24.005769137646894
+-1 max_score: 25.55380014066062
+
+
+
+// Horario generado, notese la presencia de TV
+{'hora_1': ['TV', 'Secadora', 'TV', 'TV'], 
+'hora_2': ['Lavadora'],
+'hora_3': [],
+'hora_4': ['AC'],
+'hora_5': ['TV', 'TV'],
+'hora_6': ['TV'],
+'hora_7': ['TV'],
+'hora_8': ['TV', 'TV', 'TV', 'TV'],
+'hora_9': ['TV'],
+'hora_10': ['TV', 'TV'],
+'hora_11': [],
+'hora_12': ['AC'],
+'hora_13': ['TV'],
+'hora_14': [],
+'hora_15': ['AC'],
+'hora_16': [],
+'hora_17': [],
+'hora_18': [],
+'hora_19': [],
+'hora_20': [],
+'hora_21': [],
+'hora_22': ['TV', 'TV'],
+'hora_23': [],
+'hora_24': ['TV']}

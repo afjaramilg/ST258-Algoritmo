@@ -43,16 +43,18 @@ def bi_se(val: int, h):
 # it to the HOURLY_PROD 
 def fitness_func(sol):
     hourly_cons = cp.get_hourly_cons(sol) 
-    print(hourly_cons)
+   # print(hourly_cons)
     score = 0
-    
+
+    use = 0    
     for h in range(24):
         # add to score the percentage of the needed
         # energy covered by renewable sources in that hour
         if hourly_cons[h] > 0:
-            score +=  HOURLY_PROD[h] / hourly_cons[h]  
-    
-    return score / 24
+            score += HOURLY_PROD[h] / hourly_cons[h]  
+            use += 1
+
+    return (score / 24) + (use / 24)
 
 
 def selection():
@@ -148,7 +150,7 @@ def main(pop_size: int, max_iters: int):
     return best        
 
 
-best = main(200, 10000)
+best = main(200, 1000)
 best = best.reshape((24, di.DEVICES_PER_HOUR))
 print(best)
 
