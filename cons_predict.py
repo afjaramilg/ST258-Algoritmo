@@ -12,16 +12,3 @@ def get_hourly_cons(sol):
             retval[hour] += di.KW_DEVICES[dev]
         
     return retval
-
-
-
-consumo_por_hora = obtener_consumo(individuo) 
-score = 0
-use = 0  
-
-for h in 0..24:
-    if consumo_por_hora[h] > 0:
-        score += PRODUCCION_POR_HORA[h] / consumo_por_hora[h]  
-        use += 1
-
-return (score / 24) + (use / 24)
